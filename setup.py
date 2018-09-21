@@ -26,7 +26,7 @@ setup(
     long_description="See:  README.md",
     author='Ezra Peisach',
     author_email='ezra.peisach@rcsb.org',
-    #url='http://mmcif.wwpdb.org',
+    url='https://github.com/epeisach/py-fakePDFtk',
     #
     license='Apache 2.0',
     classifiers=(
