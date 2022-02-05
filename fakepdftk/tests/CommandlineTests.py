@@ -26,9 +26,9 @@ TOPDIR = os.path.dirname(os.path.dirname(HERE))
 
 try:
     from fakepdftk import __version__
-except Exception as e:
+except Exception as e:  # noqa: F841 pylint: disable=bare-exxcept
     sys.path.insert(0, TOPDIR)
-    from fakepdftk import __version__
+    from fakepdftk import __version__  # noqa: F401
 
 from fakepdftk.command_line import main
 

@@ -18,17 +18,10 @@ __email__ = "ezra.peisach@rcsb.org"
 __license__ = "Apache 2.0"
 
 import os
-import sys
 import unittest
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 TOPDIR = os.path.dirname(os.path.dirname(HERE))
-
-try:
-    from fakepdftk import __version__
-except Exception as e:
-    sys.path.insert(0, TOPDIR)
-    from fakepdftk import __version__
 
 from fakepdftk.WatermarkUtils import WatermarkUtils
 

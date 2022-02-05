@@ -1,0 +1,4 @@
+# FAKEPDK MMCIF HISTORY
+
+21-Sep-2018  - v0.1 - Initial version
+05-Feb-2022  - v0.2 - cleanup python setup and testing
